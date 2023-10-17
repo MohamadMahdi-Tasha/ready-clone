@@ -1,0 +1,8 @@
+/*Codes by mahdi tasha*/
+/*Importing tailwindCSS*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Custom styles*/
+.sand-bg {background-image: url('../public/img/texture/img-sand.webp');}

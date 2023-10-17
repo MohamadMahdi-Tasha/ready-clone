@@ -5,6 +5,7 @@ import {Metadata} from "next";
 import localFont from "next/font/local";
 import {NextFont} from "next/dist/compiled/@next/font";
 import HeaderComponent from "@/component/headerComponent";
+import '@/app/index.css';
 
 // Defining custom font
 const americanStandardFont:NextFont = localFont({src: '../public/font/america-standard.woff'})
@@ -27,9 +28,13 @@ export default function Layout({children}:propsType):ReactNode {
     // Returning JSX
     return (
         <html>
-            <body className={`${americanStandardFont.className}`}>
-                <HeaderComponent />
-                {children}
+            <body className={`${americanStandardFont.className} bg-body`}>
+                <div className={'sand-bg'}>
+                    <HeaderComponent />
+                    <div>
+                        {children}
+                    </div>
+                </div>
             </body>
         </html>
     );
