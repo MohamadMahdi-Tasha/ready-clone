@@ -4,6 +4,7 @@ import {ReactNode} from 'react';
 import {Metadata} from "next";
 import localFont from "next/font/local";
 import {NextFont} from "next/dist/compiled/@next/font";
+import HeaderComponent from "@/component/headerComponent";
 
 // Defining custom font
 const americanStandardFont:NextFont = localFont({src: '../public/font/america-standard.woff'})
@@ -27,6 +28,7 @@ export default function Layout({children}:propsType):ReactNode {
     return (
         <html>
             <body className={`${americanStandardFont.className}`}>
+                <HeaderComponent />
                 {children}
             </body>
         </html>
