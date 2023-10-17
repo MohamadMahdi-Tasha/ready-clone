@@ -4,7 +4,7 @@ import {ReactNode} from 'react';
 import {Metadata} from "next";
 import localFont from "next/font/local";
 import {NextFont} from "next/dist/compiled/@next/font";
-import HeaderComponent from "@/component/headerComponent";
+import HeaderComponent from "@/component/header/headerComponent";
 import '@/app/index.css';
 
 // Defining custom font
@@ -28,13 +28,9 @@ export default function Layout({children}:propsType):ReactNode {
     // Returning JSX
     return (
         <html>
-            <body className={`${americanStandardFont.className} bg-body`}>
-                <div className={'sand-bg'}>
-                    <HeaderComponent />
-                    <div>
-                        {children}
-                    </div>
-                </div>
+            <body className={`${americanStandardFont.className} bg-body sand-bg`}>
+                <HeaderComponent />
+                {children}
             </body>
         </html>
     );
