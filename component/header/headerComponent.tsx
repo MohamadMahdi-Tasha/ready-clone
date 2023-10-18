@@ -23,7 +23,7 @@ export default function HeaderComponent():ReactNode {
                         <Image className={'w-auto h-auto'} src={logoTypo.src} alt={'Logo Of Ready'} width={100} height={100} />
                     </Link>
                     <div className={'flex flex-wrap gap-[10px]'}>
-                        <div className={'flex ml-[10px]'}>
+                        <div className={'sm:flex hidden ml-[10px]'}>
                             <HeaderProfileComponent img={profileImage1.src} />
                             <HeaderProfileComponent img={profileImage2.src} />
                             <HeaderProfileComponent img={profileImage3.src} />
