@@ -6,3 +6,29 @@
 
 /*Custom styles*/
 .sand-bg {background-image: url('../public/img/texture/img-sand.webp');}
+.header-profile-animation[data-showing="true"] {animation: header-profile-animation .4s forwards;}
+.header-profile-animation[data-showing="false"] {@apply hidden;}
+.loading {animation: loading-animation 1s infinite linear alternate-reverse;}
+
+/*Animations*/
+@keyframes header-profile-animation {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.4);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.4);
+    }
+}
+
+@keyframes loading-animation {
+    from {@apply bg-gray-400;}
+    to {@apply bg-gray-500;}
+}

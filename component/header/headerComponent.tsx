@@ -18,12 +18,12 @@ export default function HeaderComponent():ReactNode {
     return (
         <header className={'backdrop-blur fixed top-0 left-0 w-full border-b border-b-black/20'}>
             <div className={'sand-bg'}>
-                <HolderComponent className={'flex justify-between items-center gap-[20px] px-[10px] py-[10px] flex-wrap'}>
+                <HolderComponent className={'flex justify-between items-center gap-[20px] py-[10px] px-[15px] flex-wrap'}>
                     <Link className={'block'} href={'/'}>
                         <Image className={'w-auto h-auto'} src={logoTypo.src} alt={'Logo Of Ready'} width={100} height={100} />
                     </Link>
-                    <div className={'flex gap-[10px]'}>
-                        <div className={'flex'}>
+                    <div className={'flex flex-wrap gap-[10px]'}>
+                        <div className={'flex ml-[10px]'}>
                             <HeaderProfileComponent img={profileImage1.src} />
                             <HeaderProfileComponent img={profileImage2.src} />
                             <HeaderProfileComponent img={profileImage3.src} />
