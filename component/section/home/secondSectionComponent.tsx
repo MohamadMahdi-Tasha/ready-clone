@@ -26,7 +26,7 @@ export default function SecondSectionComponent():ReactNode {
 
     // Returning JSX
     return (
-        <section className={'lg:mt-[150px] mt-[50px]'}>
+        <section className={'lg:mt-[150px] mt-[50px] overflow-hidden'}>
             <main>
                 <HolderComponent className={'p-[20px]'}>
                     <h1 className={`sm:text-center lg:text-[50px] text-[40px] text-gray-800 font-bold lg:leading-[60px] leading-[40px] mb-[30px] ${walsheimFont.className}`}>A superpowered <br/> meeting in every <br/> calendar event</h1>

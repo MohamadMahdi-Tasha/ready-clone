@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 20" width="260" height="20" preserveAspectRatio="xMidYMid meet"
+     style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+    <defs>
+        <clipPath id="__lottie_element_69">
+            <rect width="260" height="20" x="0" y="0"></rect>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#__lottie_element_69)">
+        <g transform="matrix(1.1910400390625,0,0,1.0526299476623535,130,10)" opacity="1" style="display: block;">
+            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                <path stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                      stroke="rgb(92,106,228)" stroke-opacity="1" stroke-width="4"
+                      d=" M-106,4.75 C-106,4.75 -59.69200134277344,1.434999942779541 -36.5,1.5 C0.020999999716877937,1.6019999980926514 31.738000869750977,4.828000068664551 68.25,4 C79.16999816894531,3.752000093460083 103.89800262451172,1.9420000314712524 106.30999755859375,1.7640000581741333"></path>
+            </g>
+        </g>
+    </g>
+</svg>
