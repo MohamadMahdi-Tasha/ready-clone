@@ -1,5 +1,7 @@
 // Codes by mahdi tasha
+// Forcing NextJS to render this component as client side component
 'use client'
+
 // Importing part
 import {ReactNode} from "react";
 import HolderComponent from "@/chunk/holderComponent";
