@@ -2,13 +2,9 @@
 // Importing part
 import {ReactNode} from 'react';
 import {Metadata} from "next";
-import localFont from "next/font/local";
-import {NextFont} from "next/dist/compiled/@next/font";
 import HeaderComponent from "@/component/header/headerComponent";
 import '@/app/index.css';
-
-// Defining custom font
-const americanStandardFont:NextFont = localFont({src: '../public/font/america-standard.woff'})
+import americanStandardFont from '@/app/font';
 
 // Creating metadata of page
 export const metadata:Metadata = {

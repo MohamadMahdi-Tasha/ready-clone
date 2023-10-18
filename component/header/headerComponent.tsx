@@ -16,7 +16,7 @@ import HeaderProfileComponent from "@/component/header/headerProfileComponent";
 export default function HeaderComponent():ReactNode {
     // Returning JSX
     return (
-        <header className={'backdrop-blur fixed top-0 left-0 w-full border-b border-b-black/20'}>
+        <header className={'backdrop-blur fixed top-0 left-0 w-full border-b border-b-black/20 z-[100]'}>
             <div className={'sand-bg'}>
                 <HolderComponent className={'flex justify-between items-center gap-[20px] py-[10px] px-[15px] flex-wrap'}>
                     <Link className={'block'} href={'/'}>
