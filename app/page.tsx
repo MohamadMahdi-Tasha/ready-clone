@@ -6,6 +6,7 @@ import SecondSectionComponent from "@/component/section/home/secondSectionCompon
 import ThirdSectionComponent from "@/component/section/home/thirdSectionComponent";
 import FourthSectionComponent from '@/component/section/home/fourthSectionComponent';
 import FifthSectionComponent from "@/component/section/home/fifthSectionComponent";
+import SixthSectionComponent from "@/component/section/home/sixthSectionComponent";
 
 // Creating and exporting home page as default
 export default function HomePage():ReactNode {
@@ -17,6 +18,7 @@ export default function HomePage():ReactNode {
             <ThirdSectionComponent />
             <FourthSectionComponent />
             <FifthSectionComponent />
+            <SixthSectionComponent />
         </>
     );
 }
