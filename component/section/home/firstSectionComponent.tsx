@@ -26,7 +26,7 @@ export default function FirstSectionComponent():ReactNode {
                                 <motion.div
                                     variants={{
                                         hidden: {width: 0, opacity: 0},
-                                        visible: {width: '100%', opacity: 1, ease: "ease-in-out"}
+                                        visible: {width: '100%', opacity: 1}
                                     }}
                                     transition={{duration: 1,}}                                                                      
                                     initial={'hidden'}                                     
