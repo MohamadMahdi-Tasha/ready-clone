@@ -15,8 +15,8 @@ export default function ForthSectionComponent():ReactNode {
     <section className={'mt-[50px]'}>
         <main>
             <HolderComponent className={'p-[20px]'}>
-                <h1 className={`sm:text-center lg:text-[50px] text-[40px] text-gray-800 font-bold lg:leading-[60px] leading-[40px] mb-[30px] ${walsheimFont.className}`}>Leave <span className={'bg-circle-line'}>every</span> meeting <br/> feeling Ready</h1>
-                <p className={'sm:text-center text-gray-800 text-[18px] font-normal lg:mb-[120px] mb-[80px]'}>Never lose track of a decision or forget a follow up. Ready <br/> keeps you and your team organized before, during, and <br/> after every meeting.</p>
+                <h1 className={`text-center lg:text-[50px] text-[40px] text-gray-800 font-bold lg:leading-[60px] leading-[40px] mb-[30px] ${walsheimFont.className}`}>Leave <span className={'bg-circle-line'}>every</span> meeting <br/> feeling Ready</h1>
+                <p className={'text-center text-gray-800 text-[18px] font-normal lg:mb-[120px] mb-[80px]'}>Never lose track of a decision or forget a follow up. Ready <br/> keeps you and your team organized before, during, and <br/> after every meeting.</p>
                 <div className={'lg:grid flex flex-col grid-cols-5 gap-[20px]'}>
                     <div className={'col-span-3 lg:grid flex flex-col grid-rows-4 gap-[20px]'}>
                         <div className={'row-span-2 bg-travel rounded-[20px] overflow-hidden gap-[20px] bg-cover flex flex-col justify-between'}>
