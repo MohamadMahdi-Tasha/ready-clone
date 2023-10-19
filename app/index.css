@@ -11,7 +11,7 @@
 .bg-features {background-image: url('../public/img/section/thirdSection/bg/img-features.webp')}
 .bg-tasks {background-image: url('../public/img/section/thirdSection/bg/img-tasks.webp')}
 .bg-tools {background-image: url('../public/img/section/thirdSection/bg/img-tools.webp')}
-.bg-line-underline {@apply lg:bg-[url('../public/img/section/thirdSection/img-line-underline.svg')] bg-none;background-position: bottom;}
+.bg-line-underline-third-section {@apply lg:bg-[url('../public/img/section/thirdSection/img-line-underline.svg')] bg-none;background-position: bottom;}
 
 /*Animations*/
 @keyframes header-profile-animation {
