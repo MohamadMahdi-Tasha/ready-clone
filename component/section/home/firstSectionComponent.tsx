@@ -8,7 +8,7 @@ import HolderComponent from "@/chunk/holderComponent";
 import demoImage1 from '@/public/img/section/firstSection/img-demo-1.webp';
 import demoImage2 from '@/public/img/section/firstSection/img-demo-2.webp';
 import americanStandardFont ,{walsheimFont} from "@/app/font";
-import {motion} from 'framer-motion';
+import {motion, easeIn} from 'framer-motion';
 
 // Creating and exporting first section component as default
 export default function FirstSectionComponent():ReactNode {
@@ -26,10 +26,10 @@ export default function FirstSectionComponent():ReactNode {
                                 <motion.div
                                     variants={{
                                         hidden: {width: 0, opacity: 0},
-                                        visible: {width: '100%', opacity: 1}
+                                        visible: {width: '100%', opacity: 1, ease: "ease-in-out"}
                                     }}
-                                    transition={{duration: 1}}
-                                    initial={'hidden'}
+                                    transition={{duration: 1,}}                                                                      
+                                    initial={'hidden'}                                     
                                     animate={'visible'}
                                     className={'w-full h-[100px] bg-indigo-700/30 -z-[1] rounded-l-[20px]'}
                                 />
@@ -42,7 +42,7 @@ export default function FirstSectionComponent():ReactNode {
                                         }}
                                         initial={'hidden'}
                                         animate={'visible'}
-                                        transition={{duration: 1, delay: 1.5}}
+                                        transition={{duration: 1, delay: 1.5}}   
                                         className={'rounded-t-[10px] rounded-r-[10px] -translate-y-[80%] -translate-x-[1px] px-[10px] py-[5px] h-[30px] flex justify-center items-center bg-indigo-700'}
                                     >
                                         <span className={`${americanStandardFont.className} text-[14px] font-bold text-white`}>Febby</span>
