@@ -5,6 +5,7 @@ import {Metadata} from "next";
 import HeaderComponent from "@/component/header/headerComponent";
 import '@/app/index.css';
 import americanStandardFont from '@/app/font';
+import FooterComponent from "@/component/footerComponent";
 
 // Creating metadata of page
 export const metadata:Metadata = {
@@ -27,6 +28,7 @@ export default function Layout({children}:propsType):ReactNode {
             <body className={`${americanStandardFont.className} bg-body sand-bg`}>
                 <HeaderComponent />
                 {children}
+                <FooterComponent />
             </body>
         </html>
     );
